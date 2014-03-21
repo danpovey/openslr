@@ -1,0 +1,68 @@
+a,h1,h2,h3,h4,body,html,div,textarea,input{
+font-family: Calibri,Arial,Sans Serif;
+line-height: 1.3em;
+
+}
+.currentPage{
+color:red;
+}
+#centeredContainer{
+/*width:1060px;*/
+margin:0 auto;
+font-size:1.1em;
+padding-top:1em;
+}
+#mainContent{
+/* float:left; */
+padding-right: 250px; 
+/*width:710px; */
+padding-top:1em;
+}
+#rightCol{
+float:right;
+width:230px;
+padding-top:1em;
+}
+a:hover{
+color:blue;
+}
+a{
+text-decoration:none;
+}
+#top{
+word-spacing:12px;
+padding-left:15px;
+white-space:nowrap;
+padding-top:6px;
+background-color: #d3d3d3;
+height:2em;
+}
+#resourceTable{
+margin:10px;
+padding:9px 9px 9px 9px;
+table-layout:fixed;
+}
+td{
+padding:0px 5px 0px 5px;
+}
+.myTopButton{
+color:black;
+#background-color: #ffffff;
+}
+.topButtons{
+#background-color: #ffffff;
+}
+.contact_info{
+font-family: Calibri,Arial,Sans Serif;
+line-height: 1.3em;
+}
+.contactTitle{
+font-size: 16px;
+font-weight:bold;
+border-bottom:2px solid #1a1a1a;
+margin:20px 0 10px 0;
+}
+#footer{
+float:right;
+}
+
