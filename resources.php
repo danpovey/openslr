@@ -14,10 +14,10 @@
   <body>
     <div class="container">
       <div id="centeredContainer">
-        <div class="header"><h2>Open Speech and Language Resources</h2></div>
+        <div class="header"><h2 id="topline">Open Speech and Language Resources</h2></div>
         <div id="top">
           <a class="topButtons" href="index.html">Home</a>
-          <a class="myTopButton" href="resources.html">Resources</a>
+          <a class="myTopButton" href="resources.php">Resources</a>
         </div>
         <div id="rightCol">
           <div class = "contact_info">
@@ -43,7 +43,8 @@
                    $resource = new Resource($resource_dir);
                    if ($resource->ok()) {
                    print "<tr>";
-                  print "<td> SLR$resource->id </td> <td> $resource->name </td> <td> $resource->category </td> <td> $resource->summary </td>";
+                  print "<td> <a href=\"http://www.openslr.org/$resource->id/\"> SLR$resource->id </a> </td> "; 
+                  print "<td> $resource->name </td> <td> $resource->category </td> <td> $resource->summary </td>\n";
                   print "</tr>";
                 }
                 }

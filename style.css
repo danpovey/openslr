@@ -6,6 +6,9 @@ line-height: 1.3em;
 .currentPage{
 color:red;
 }
+#topline{ /* h2 id="topline" */
+margin:5px 10px 15px 10px
+}
 #centeredContainer{
 /*width:1060px;*/
 margin:0 auto;
@@ -42,7 +45,12 @@ margin:10px;
 padding:9px 9px 9px 9px;
 table-layout:fixed;
 }
+th{
+text-align: left;
+padding:0px 5px 0px 5px;
+}
 td{
+text-align: left;
 padding:0px 5px 0px 5px;
 }
 .myTopButton{
@@ -61,6 +69,15 @@ font-size: 16px;
 font-weight:bold;
 border-bottom:2px solid #1a1a1a;
 margin:20px 0 10px 0;
+}
+h2.resource{
+margin: 5px 2px 5px 8px;
+}
+p.resource{
+margin:2px 2px 2px 15px;
+}
+#about{
+padding:0px 0px 0px 20px;
 }
 #footer{
 float:right;

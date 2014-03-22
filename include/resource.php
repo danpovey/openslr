@@ -7,9 +7,9 @@ class Resource
     public $name = '';
     public $category = '';
     public $license = '';
-    public $file_list = array(); // each element of file-list is an array containing
+    public $files = array(); // each element of file-list is an array containing
                                   // the filename, then possibly an explanatory string.
-    public $alternate_url_list = array(); // each element of alternate_url_list is an array
+    public $alternate_urls = array(); // each element of alternate_urls is an array
                                   // containing the alternate URL, then possibly an 
                                   // explanatory string.
 
@@ -34,12 +34,8 @@ class Resource
        }
      }
      public function get_about_html() {
-       $about_html = file_get_contents($dir . "/about.html");
-       if ($about_html === false) {
-         error_log("Warning: no such file $dir/about.html");
-         $about_html = "No further information supplied";
-       }
-       return $about_html;
+       $about_html = file_get_contents($this->dir . "/about.html");
+       return $about_html; // may be false if not found; calling script will deal with it.
      } 
      public function ok () { return ($this->dir !== ''); }
 
@@ -61,15 +57,15 @@ class Resource
          $this->license = implode(' ', array_slice($strings, 1));
        } elseif ($strings[0] === 'file:') {
          if (count($strings) == 2) {  // just the filename.
-           array_push($this->file_list, array($strings[1]));
+           array_push($this->files, array($strings[1]));
          } elseif (count($strings) > 2) {  // filename with explanation.
-           array_push($this->file_list, array($strings[1], implode(' ', array_slice($strings, 1))));
+           array_push($this->files, array($strings[1], implode(' ', array_slice($strings, 2))));
          }
        } elseif ($strings[0] == 'alternate_url:') {
          if (count($strings) == 2) {  // just the alternate url name.
-           array_push($this->alternate_url_list, array($strings[1]));
+           array_push($this->alternate_urls, array($strings[1]));
          } elseif (count($strings) > 2) {  // alternate url name with explanation.
-           array_push($this->alternate_url_list, array($strings[1], implode(' ', array_slice($strings, 1))));
+           array_push($this->alternate_urls, array($strings[1], implode(' ', array_slice($strings, 2))));
          }
        }
      }
