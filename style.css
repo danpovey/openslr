@@ -21,6 +21,7 @@ position:relative;
 }
 #headerLeft {
 position:absolute;
+z-index:1;
 margin:0 0 0 0;
 left:0px;
 }
@@ -28,13 +29,13 @@ left:0px;
 position:absolute;
 top:3px;
 right:20px;
-bottom:2px;
+bottom:1px;
 float:right;
+white-space:nowrap;
 }
 #logoImage{ 
-z-index:-1;
 height:60px;
-margin:0px 0 0 0
+margin:0px 0 0 10px
 }
 .currentPage{
 color:red;
