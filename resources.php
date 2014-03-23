@@ -7,6 +7,7 @@
   <head>
     <meta name="description" content="Open Speech and Language Resources."/>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/openslr_ico.png"/>
     <link rel="stylesheet" type="txt/css" href="style.css"/> 
     <title>openslr.org</title>
     
@@ -14,11 +15,16 @@
   <body>
     <div class="container">
       <div id="centeredContainer">
-        <div class="header"><h2 id="topline">Open Speech and Language Resources</h2></div>
-        <div id="top">
-          <a class="topButtons" href="index.html">Home</a>
-          <a class="myTopButton" href="resources.php">Resources</a>
+        <div id="headerBar">
+         <div id="headerLeft"> <image id="logoImage" src="/openslr.png">  </div>
+         <div id="headerRight"><h2 class="slrStyle">Open Speech and Language Resources</h2></div>
         </div>
+        <hr/>
+        <div id="topBar">
+          <a class="topButtons" href="/index.html">Home</a>
+          <a class="myTopButton" href="/resources.php">Resources</a>
+        </div>
+        <hr/>
         <div id="rightCol">
           <div class = "contact_info">
             <div class ="contactTitle">Contact</div>
@@ -30,7 +36,7 @@
         <div id="mainContent">
 
           <div class="container" >
-	        <p><b> Resources </b><br/>
+	        <p><h3 class="slrStyle"> Resources </h3>
 
               <table id="resourceTable">
                 <tr> <th> Resource </th> <th> Name </th> <th> Category </th>  <th> Summary </th> </tr>

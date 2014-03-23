@@ -7,6 +7,7 @@
   <head>
     <meta name="description" content="Open Speech and Language Resources."/>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/openslr_ico.png"/>
     <link rel="stylesheet" type="txt/css" href="/style.css"/> 
     <title>openslr.org</title>
     
@@ -14,11 +15,16 @@
   <body>
     <div class="container">
       <div id="centeredContainer">
-        <div class="header"><h2 id="topline">Open Speech and Language Resources</h2></div>
-        <div id="top">
+        <div id="headerBar">
+         <div id="headerLeft"> <image id="logoImage" src="/openslr.png">  </div>
+         <div id="headerRight"><h2 class="slrStyle">Open Speech and Language Resources</h2></div>
+        </div>
+        <hr/>
+        <div id="topBar">
           <a class="topButtons" href="/index.html">Home</a>
           <a class="topButtons" href="/resources.php">Resources</a>
         </div>
+        <hr/>
         <div id="rightCol">
           <div class = "contact_info">
             <div class ="contactTitle">Contact</div>
@@ -47,7 +53,7 @@
                 }
               }
               if ($ok) {
-                 print "<h2 class=\"resource\"> $resource->name </h2>\n";
+                 print "<h2 class=\"slrStyle\"> $resource->name </h2>\n";
                  print "<p class=\"resource\"> <b>Identifier:</b> SLR$resource->id </p>\n";
                  print "<p class=\"resource\"> <b>Summary:</b> $resource->summary </p>\n";
                  print "<p class=\"resource\"> <b>Category:</b> $resource->category </p>\n";

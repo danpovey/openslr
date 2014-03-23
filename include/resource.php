@@ -52,7 +52,7 @@ class Resource
        } elseif ($strings[0] === 'name:') {
          $this->name = implode(' ', array_slice($strings, 1));
        } elseif ($strings[0] === 'category:') {
-         $this->category = implode(' ', array_slice($strings, 1));
+         $this->category = ucfirst(implode(' ', array_slice($strings, 1)));
        } elseif ($strings[0] === 'license:') {
          $this->license = implode(' ', array_slice($strings, 1));
        } elseif ($strings[0] === 'file:') {

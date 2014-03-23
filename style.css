@@ -1,25 +1,56 @@
-a,h1,h2,h3,h4,body,html,div,textarea,input{
+a,h1,h2,h3,h4,body,html,div,textarea,input,hr{
 font-family: Calibri,Arial,Sans Serif;
 line-height: 1.3em;
-
+background-color: #FAEAE4;
+color:#5C3200;
+}
+a:link{ color:#3355EE; }
+a:visited { color:#3355EE; }
+h2.slrStyle {
+font-family: Didot, serif;
+text-shadow: 1.5px 1.5px #AB8F72;
+}
+h3.slrStyle {
+font-family: Didot, serif;
+text-shadow: 1.5px 1.5px #AB8F72;
+}
+#headerBar{ 
+height:70px;
+width:auto;
+position:relative;
+}
+#headerLeft {
+position:absolute;
+margin:0 0 0 0;
+left:0px;
+}
+#headerRight {
+position:absolute;
+top:3px;
+right:20px;
+margin:0px 10px 10px 10px;
+float:right;
+}
+#logoImage{ 
+z-index:-1;
+height:70px;
+margin:0px 0 0 0
 }
 .currentPage{
 color:red;
 }
-#topline{ /* h2 id="topline" */
-margin:5px 10px 15px 10px
-}
 #centeredContainer{
 /*width:1060px;*/
 margin:0 auto;
-font-size:1.1em;
+font-size:1.05em;
 padding-top:1em;
 }
 #mainContent{
 /* float:left; */
 padding-right: 250px; 
+padding-left:10px;
 /*width:710px; */
-padding-top:1em;
+padding-top:0.5em;
 }
 #rightCol{
 float:right;
@@ -32,16 +63,19 @@ color:blue;
 a{
 text-decoration:none;
 }
-#top{
+hr { 
+ width:99%; height: 1px;
+ color:#5C3200;
+ background-color:#5C3200;
+}
+#topBar{
 word-spacing:12px;
-padding-left:15px;
+padding-left:20px;
 white-space:nowrap;
-padding-top:6px;
-background-color: #d3d3d3;
-height:2em;
+height:1.2em;
 }
 #resourceTable{
-margin:10px;
+margin:5px;
 padding:9px 9px 9px 9px;
 table-layout:fixed;
 }
@@ -53,9 +87,8 @@ td{
 text-align: left;
 padding:0px 5px 0px 5px;
 }
-.myTopButton{
-color:black;
-#background-color: #ffffff;
+a.myTopButton{
+color:#5C3200;
 }
 .topButtons{
 #background-color: #ffffff;
@@ -65,10 +98,13 @@ font-family: Calibri,Arial,Sans Serif;
 line-height: 1.3em;
 }
 .contactTitle{
-font-size: 16px;
-font-weight:bold;
-border-bottom:2px solid #1a1a1a;
-margin:20px 0 10px 0;
+font-family: Didot, serif;
+text-shadow: 1px 1px #AB8F72;
+font-size: 18px;
+#font-weight:bold;
+border-bottom:1px solid #5C3200;
+padding:0px 0px 3px 0px;
+margin:20px 0 10px 0px;
 }
 h2.resource{
 margin: 5px 2px 5px 8px;
