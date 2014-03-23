@@ -15,7 +15,7 @@ font-family: Didot, serif;
 text-shadow: 1.5px 1.5px #AB8F72;
 }
 #headerBar{ 
-height:70px;
+height:60px;
 width:auto;
 position:relative;
 }
@@ -28,12 +28,12 @@ left:0px;
 position:absolute;
 top:3px;
 right:20px;
-margin:0px 10px 10px 10px;
+bottom:2px;
 float:right;
 }
 #logoImage{ 
 z-index:-1;
-height:70px;
+height:60px;
 margin:0px 0 0 0
 }
 .currentPage{

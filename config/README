@@ -5,3 +5,5 @@ This is done so that we can put it in the same git repository as the html and ph
 contents.
 (note: for reasons of size, we can't do the same for the directory "/var/www/openslr/resources/" 
 here the actual resources we export are kept.)
+
+I'm also adding openslr.key
