@@ -69,7 +69,7 @@
                        $file = $f_array[0];
                        $comment = (count($f_array) > 1 ? $f_array[1] : '');
                        $file_url="http://www.openslr.org/resources/$id/$file";
-                       print "<a href=\"$file_url\"> $file </a> </p> &nbsp; $comment <br> \n";
+                       print "<a href=\"$file_url\"> $file </a>  &nbsp; ($comment) <br> \n";
                     }
                     print '</p>';
                  }
@@ -83,14 +83,14 @@
                  if (count($resource->alternate_urls) == 1) {
                     $u_array = $resource->alternate_urls[0]; // array of size 0 or 1.
                     $url = $u_array[0];
-                    $comment = (count($f_array) > 1 ? $u_array[1] : '');
+                    $comment = (count($u_array) > 1 ? $u_array[1] : '');
                     print "<p class=\"resource\"> <b>External URL:</b> <a href=\"$url\"> $url </a> &nbsp; $comment </p> \n";
                  } elseif (count($resource->alternate_urls) > 1) {
-                    print "<p class=\"resource\"> <b>External URLs:</b> <br>";
+                    print "<p class=\"resource\"> <b>External URLs:</b> <br/>";
                     foreach ($resource->alternate_urls as $u_array) {
                       $url = $u_array[0];
-                      $comment = (count($f_array) > 1 ? $u_array[1] : '');
-                      print "<a href=\"$url\"> $url </a> &nbsp; $comment <br> </p> \n";
+                      $comment = (count($u_array) > 1 ? $u_array[1] : '');
+                      print "<a href=\"$url\"> $url </a> &nbsp; ($comment) <br/> \n";
                     }
                     print "</p>";
                  }

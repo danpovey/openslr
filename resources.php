@@ -43,17 +43,18 @@
 
                 <?php
                    $root = dirname(__FILE__) . "/resources/";
-                   $dir = new DirectoryIterator($root);
-                   foreach ($dir as $fileinfo) {
-                   $resource_dir = $root . $fileinfo;
-                   $resource = new Resource($resource_dir);
-                   if ($resource->ok()) {
-                   print "<tr>";
-                  print "<td> <a href=\"http://www.openslr.org/$resource->id/\"> SLR$resource->id </a> </td> "; 
-                  print "<td> $resource->name </td> <td> $resource->category </td> <td> $resource->summary </td>\n";
-                  print "</tr>";
-                }
-                }
+                   $id_list = get_resource_id_list($root);              
+                   // $dir = new DirectoryIterator($root);
+                   foreach ($id_list as $filename) {
+                     $resource_dir = $root . $filename;
+                     $resource = new Resource($resource_dir);
+                     if ($resource->ok()) {
+                       print "<tr>";
+                       print "<td> <a href=\"http://www.openslr.org/$resource->id/\"> SLR$resource->id </a> </td> "; 
+                       print "<td> $resource->name </td> <td> $resource->category </td> <td> $resource->summary </td>\n";
+                       print "</tr>";
+                     }
+                   }
                 ?>
               </table>
 

@@ -70,4 +70,25 @@ class Resource
        }
      }
 }
+
+function get_resource_id_list($root) {
+  // This function, given a root directory (e.g. /var/www/openslr/resources/,
+  // returns a list of resource-ids, e.g. ('1', '2', '3', ... ), derived
+  // from iterating over the directory, finding numeric subdirectories, 
+  // and sorting them.
+  $dir = new DirectoryIterator($root);
+  $id_list = array();
+  foreach ($dir as $fileinfo) {
+    $filename = $fileinfo->getFilename();
+    if ($filename === strval(intval($filename))) { // filename is an integer
+      array_push($id_list, intval($filename)); // push onto array as integer.
+    }
+  }
+  sort($id_list, SORT_NUMERIC); // sort $id_list by numeric value.
+  for ($n = 0; $n < count($id_list); $n++) { // convert back into strings.
+    $id_list[$n] = strval($id_list[$n]);
+  }
+  return $id_list;
+}
+
 ?>
