@@ -1,0 +1,7 @@
+name: sctk
+summary: This resource is a mirror of the sctk scoring software
+category: software
+license: Public domain
+file: sctk-2.4.0-20091110-0958.tar.bz2 The original, bzipped version
+file: sctk-2.4.0-20091110-0958.tar.gz A gzipped version of the archive
+alternate_url: ftp://jaguar.ncsl.nist.gov/pub/sctk-2.4.0-20091110-0958.tar.bz2

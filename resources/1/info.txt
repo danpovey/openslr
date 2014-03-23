@@ -1,0 +1,6 @@
+name: Yesno
+summary: Sixty recordings of one individual saying yes or no; each recording is eight words long.
+category: speech
+license: No formal license but free to use for any purpose.
+file: waves_yesno.tar.gz   This is the entire dataset.
+alternate_url: http://sourceforge.net/projects/kaldi/files/waves_yesno.tar.gz
