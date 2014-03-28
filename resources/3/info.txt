@@ -1,5 +1,5 @@
 name: sph2pipe
-summary: This resource is a mirror of the sph2pipe software
+summary: A mirror of the sph2pipe software
 category: software
 license: One-off
 file: sph2pipe_v2.5.tar.gz  Version 2.5, probably the last one.

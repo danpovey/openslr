@@ -1,0 +1,8 @@
+name: MSU Switchboard transcipts
+summary: A mirror of the Mississippi State transcripts and lexicon for Switchboard.
+category: text
+license: Unrestricted
+file: switchboard_word_alignments.tar.gz The transcripts
+file: sw-ms98-dict.text The lexicon
+alternate_url: http://www.isip.piconepress.com/projects/switchboard/releases/switchboard_word_alignments.tar.gz The transcripts in their original location
+alternate_url: http://www.isip.piconepress.com/projects/switchboard/releases/sw-ms98-dict.text The lexicon in its original location

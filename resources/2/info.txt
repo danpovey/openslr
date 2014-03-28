@@ -1,10 +1,10 @@
 name: OpenFST
-summary: This resource is a mirror of the OpenFst toolkit
+summary: A mirror of the OpenFst toolkit
 category: software
 license: Apache 2.0
 file: openfst-1.3.2.tar.gz  Version 1.3.2
 file: openfst-1.3.3.tar.gz  Version 1.3.3
-file: openfst-1.3.3.tar.gz  Version 1.3.4
+file: openfst-1.3.4.tar.gz  Version 1.3.4
 alternate_url: http://openfst.cs.nyu.edu/twiki/pub/FST/FstDownload/openfst-1.3.2.tar.gz Version 1.3.2
 alternate_url: http://openfst.cs.nyu.edu/twiki/pub/FST/FstDownload/openfst-1.3.3.tar.gz Version 1.3.3
-alternate_url: http://openfst.cs.nyu.edu/twiki/pub/FST/FstDownload/openfst-1.3.3.tar.gz Version 1.3.4
+alternate_url: http://openfst.cs.nyu.edu/twiki/pub/FST/FstDownload/openfst-1.3.4.tar.gz Version 1.3.4
