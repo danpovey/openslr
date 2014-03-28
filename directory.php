@@ -62,14 +62,16 @@
                     $f_array = $resource->files[0]; // array of size 0 or 1.
                     $file = $f_array[0];
                     $comment = (count($f_array) > 1 ? $f_array[1] : '');
-                    print "<p class=\"resource\"> <b>Download:</b> <a href=\"http://www.openslr.org/resources/$id/$file\"> $file </a> &nbsp; $comment </p>\n";
+                    $size = $resource->get_file_size($file);
+                    print "<p class=\"resource\"> <b>Download:</b> <a href=\"http://www.openslr.org/resources/$id/$file\"> $file </a> [$size] &nbsp; $comment </p>\n";
                  } elseif (count($resource->files) > 1) {
                     print "<p class=\"resource\"> <b>Downloads:</b> <br>";
                     foreach ($resource->files as $f_array) {
                        $file = $f_array[0];
+                       $size = $resource->get_file_size($file);
                        $comment = (count($f_array) > 1 ? $f_array[1] : '');
                        $file_url="http://www.openslr.org/resources/$id/$file";
-                       print "<a href=\"$file_url\"> $file </a>  &nbsp; ($comment) <br> \n";
+                       print "<a href=\"$file_url\"> $file </a> [$size] &nbsp; ($comment) <br> \n";
                     }
                     print '</p>';
                  }

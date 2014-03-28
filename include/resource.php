@@ -39,6 +39,35 @@ class Resource
      } 
      public function ok () { return ($this->dir !== ''); }
 
+     public function get_file_size($file) {
+        // this function returns the fize of the file $file, as a human-readable string.
+        // We don't use PHP's filesize function because it gives the wrong answer if
+        // the size doesn't fit in 32 bits.
+        // $file should be a member of the @files data-member, but we don't check this.
+        $full_filename = $this->dir . "/" . $file;
+        $size = trim(`stat -L -c '%s' $full_filename`);
+        if ($size === false || preg_match('/^[0-9]+$/', $size) != 1) {
+          error_log("Error getting size of file $full_filename, size is '$size'");
+          return "error getting size";
+        }
+        $len = strlen($size);
+        if ($len > 10) {
+           return substr($size, 0, $len - 9) . "G";
+        } elseif ($len == 10) {
+           return $size[0] . "." . $size[1] . "G";
+        } elseif ($len > 7) {
+           return substr($size, 0, $len - 6) . "M";
+        } elseif ($len == 7) {
+           return $size[0] . "." . $size[1] . "M";
+        } elseif ($len > 4) {
+           return substr($size, 0, $len - 3) . "K";
+        } elseif ($len == 4) {
+           return $size[0] . "." . $size[1] . "K";
+        } else {
+           return $size . " bytes";
+        }
+     }
+
      private function parse_info_line($line) {
        // This doesn't make sure that $line is suitable to be parsed in this way.
        // If it has multiple spaces between fields we'll get the wrong answer.
