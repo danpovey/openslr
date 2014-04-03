@@ -1,0 +1,6 @@
+name: TED-LIUM
+summary: English speech recognition training corpus from TED talks, created by Laboratoire d’Informatique de l’Université du Maine (LIUM) (mirrored here)
+category: speech
+license: Creative Commons BY-NC-ND 3.0 (attribution/non-commercial/no-derivatives).
+file: TEDLIUM_release1.tar.gz The first release
+alternate_url: http://www-lium.univ-lemans.fr/en/content/ted-lium-corpus Original source
