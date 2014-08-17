@@ -1,0 +1,9 @@
+name: SREdata
+summary: Various files from SRE data that NIST used to host online
+category: misc
+license: Public domain, I believe
+file: sre04_key-v2.txt.gz  The key file for SRE04
+file: sre05-key-v7b.txt.gz  The key file for SRE05
+file: sre04_key.tgz An archive containing the key file for SRE04, plus some other things.
+alternate_url: http://www.itl.nist.gov/iad/894.01/tests/sre/2006/sre04_key.tgz Previously working location for SRE04 data
+alternate_url: http://www.itl.nist.gov/iad/894.01/tests/sre/2006/sre05_key.tgz Previously working location for SRE05 data

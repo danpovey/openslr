@@ -1,0 +1,5 @@
+name: The AMI pack
+summary: Some auxiliary non-speech data used to build AMI systems with Kaldi
+category: text
+license: TBD
+file: wordlist.50k.gz predefined 50k words vocabulary
