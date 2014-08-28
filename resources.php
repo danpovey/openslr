@@ -8,7 +8,7 @@
     <meta name="description" content="Open Speech and Language Resources."/>
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="/openslr_ico.png"/>
-    <link rel="stylesheet" type="txt/css" href="style.css"/> 
+    <link rel="stylesheet" type="text/css" href="style.css"/> 
     <title>openslr.org</title>
     
   </head>
