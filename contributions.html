@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Open Speech and Language Resources."/>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/openslr_ico.png"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/> 
+    <title>openslr.org</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div id="centeredContainer">
+        <div id="headerBar">
+         <div id="headerLeft"> <image id="logoImage" src="/openslr.png">  </div>
+         <div id="headerRight"><h2 class="slrStyle">Contributing new resources</h2></div>
+        </div>
+        <hr>
+        <div id="topBar">
+          <a class="topButtons" href="/index.html">Home</a>
+          <a class="topButtons" href="/resources.php">Resources</a>
+        </div>
+        <hr>
+
+        <div id="rightCol">
+          <div class = "contact_info">
+            <div class="contactTitle">Contact</div>
+            <a href=mailto:contact@openslr.org> contact@openslr.org </a>  <br/>
+            Phone: 425 247 4129  <br/>
+            (Daniel Povey) <br/>
+          </div>
+        </div>
+        
+
+        <div id="mainContent">
+
+          <div class= "container" >
+	        <p><h3 class="slrStyle"> What data we host </h3>
+              We are open to hosting any type of data that's useful for speech recognition and related tasks,
+              that needs a stable URL where it can be downloaded from.  We may think more carefully in cases
+              where the data is very large (e.g. tens of gigabytes or more).
+
+	        <p><h3 class="slrStyle"> Submitting your data </h3>
+            <p>
+              The process of adding data to OpenSLR is as follows.  First you might want to quickly check with us
+              whether the data you want to contribute is something we want to host; you can email
+            <a href=mailto:contact@openslr.org> contact@openslr.org</a> or
+            <a href=mailto:dpovey@gmail.com> dpovey@gmail.com</a>.  If we think it's a good idea, you can prepare
+            a .tar.gz file containing a directory with your data in it.  
+
+	        <p><h3 class="slrStyle"> The format of submitted data </h3>
+
+            The directory that you transfer to us as a .tar.gz file should not contain subdirectories;
+            it should just contain the files you want to host and two special files called <code>info.txt</code> and
+            <code>about.html</code> whose format we'll explain below.  Here is an example of such a directory:
+<pre>
+# ls /var/www/openslr/resources/6
+about.html  data_voip_cs.tgz  data_voip_en.tgz	info.txt
+</pre>
+            Note: the .tgz files inside it are the actual files that we're offering for download (and there
+            is no limitation on their names or file-type, except for the no-subdirectories rule).  What you
+            would transfer to us is a .tar.gz file containing /var/www/openslr/resources/6, i.e. the four
+            files you see in the listing above.
+            This information is used to automatically populate the web-page at <a href=http://www.openslr.org/6/> http://www.openslr.org/6/</a>.
+
+            An example of what the <code>info.txt</code> file looks like is as follows:
+<pre>
+root@www:/var/www/openslr# cat /var/www/openslr/resources/6/info.txt
+name: Vystadial
+summary: English and Czech data, mirrored from the Vystadial project
+category: speech
+license: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0 US)
+file: data_voip_cs.tgz  Czech speech and transcripts
+file: data_voip_en.tgz  English speech and transcripts
+alternate_url: https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0023-4670-6 Czech data 
+alternate_url: https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0023-4671-4 English data
+</pre>            
+
+ This is a plain-text file that will be parsed by php scripts on our site.  Some
+  of the fields are mandatory and must appear only once: the <code> name</code>, 
+  <code> summary</code>,  <code> category</code> and <code>license</code> fields.
+  The <code>name</code> field gives
+  the name of your resource, which shouldn't be too long.  The <code>summary</code>
+  is a short-sentence-length description of the resource.
+  The <code>category</code> will normally be either
+  "speech", "text" or "software" but it can have other values too.
+  The <code>license</code> line should be concise; it can just summarize the
+  license, which we assumed is explained more fully in the download itself or in
+  the <code>about.html</code> file.  There
+  may be multiple instances of the <code>file</code> field; each one corresponds to one
+  of the files in the directory you sent us.  The text after the filename in the <code>file</code>
+  field is optional; if your resource only contains one file it may not be necessary.
+  The <code>alternate_url</code> field is optional and if it occurs, may be repeated;
+  the text after the URL is optional.
+<p>
+ 
+The <code>about.html</code> file is generic HTML which will be included in the "about this resource"
+ section of the automatically generated webpage.  Just send us a first guess and you can edit it later
+ if needed.  In our example, the <code>about.html</code> file looks like this:
+
+<pre>
+This data is transcribed telephone converation data, in English and Czech.
+&lt;p&gt;
+The data collection process and development of these training scripts was partly
+funded by the Ministry of Education, Youth and Sports of the Czech Republic
+under the grant agreement LK11221 and core research funding of Charles
+University in Prague.
+&lt;p&gt;
+
+You can cite the data using the following BibTeX entry:
+&lt;pre&gt;
+
+@inproceedings{korvas_2014,
+  title={{Free English and Czech telephone speech corpus shared under the CC-BY-SA 3.0 license}},
+  author={Korvas, Mat\v{e}j and Pl\'{a}tek, Ond\v{r}ej and Du\v{s}ek, Ond\v{r}ej and \v{Z}ilka, Luk\'{a}\v{s} and Jur\v{c}\'{i}\v{c}ek, Filip},
+  booktitle={Proceedings of the Eigth International Conference on Language Resources and Evaluation (LREC 2014)},
+  pages={To Appear},
+  year={2014},
+}
+</pre>
+Once you have your .tar.gz file containing the <code>info.txt</code>, <code>about.html</code> files and your
+actual data, you can transfer it to us (we'll have to discuss the exact mechanism if it's too big to fit in email)
+and we'll check it and put it on the site.
+
+          <div style="height:300px"></div>
+
+        </div>
+      </div>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+      <div style="clear: both"></div>
+
+      <div id="footer"> 
+        <p>
+	      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+	        <img style="border:0;width:88px;height:31px"
+                 src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                 alt="Valid CSS!" />
+	      </a>
+        </p>
+      </div>
+    </div>
+  </body>      
+</html>
+
