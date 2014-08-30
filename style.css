@@ -66,7 +66,7 @@ text-decoration:none;
 }
 hr { 
  width:99%; height: 1px;
- color:#5C3200;
+/* color:#5C3200;*/
  background-color:#5C3200;
 }
 #topBar{
@@ -92,7 +92,6 @@ a.myTopButton{
 color:#5C3200;
 }
 .topButtons{
-#background-color: #ffffff;
 }
 .contact_info{
 font-family: Calibri,Arial,Sans Serif;
@@ -102,7 +101,7 @@ line-height: 1.3em;
 font-family: Didot, serif;
 text-shadow: 1px 1px #AB8F72;
 font-size: 18px;
-#font-weight:bold;
+/*font-weight:bold;*/
 border-bottom:1px solid #5C3200;
 padding:0px 0px 4px 0px;
 margin:15px 5px 10px 0px;
