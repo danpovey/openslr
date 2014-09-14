@@ -1,0 +1,13 @@
+name: LibriSpeech language models, vocabulary and G2P models
+summary: Language modelling resources, for use with the LibriSpeech ASR corpus
+category: text
+license: Public domain
+file: librispeech-lm-corpus.tgz  14500 public domain books, used as training material for the LibriSpeech's LM
+file: vocab.txt 200K word vocabulary for the LM
+file: 3-gram.arpa.gz 3-gram ARPA LM (not pruned)
+file: 3-gram.pruned.1e-7.arpa.gz 3-gram ARPA LM (pruned with theshold 1e-7)
+file: 3-gram.pruned.3e-7.arpa.gz 3-gram ARPA LM (pruned with theshold 3e-7)
+file: 4-gram.arpa.gz 4-gram ARPA LM, usually used for rescoring
+file: 4-gram.pruned.1e-7.arpa.gz 4-gram ARPA LM (pruned with theshold 1e-7)
+file: 4-gram.pruned.3e-7.arpa.gz 4-gram ARPA LM (pruned with theshold 3e-7)
+file: g2p-model-5 Fifth order Sequitur G2P model
