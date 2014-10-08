@@ -1,9 +1,9 @@
 name: LibriSpeech ASR corpus
-summary: Large-scale(1000 hours) corpus of read English speech
+summary: Large-scale (1000 hours) corpus of read English speech
 category: speech
 license: CC BY 4.0
 file: dev-clean.tar.gz development set, "clean" speech
-file: dev-other.tar.gz development set, "other"(more challenging) speech
+file: dev-other.tar.gz development set, "other", more challenging, speech
 file: test-clean.tar.gz test set, "clean" speech
 file: test-other.tar.gz test set, "other" speech
 file: train-clean-100.tar.gz training set of 100 hours "clean" speech

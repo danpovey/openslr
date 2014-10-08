@@ -4,7 +4,8 @@ category: text
 license: Public domain
 file: librispeech-lm-corpus.tgz  14500 public domain books, used as training material for the LibriSpeech's LM
 file: librispeech-lm-norm.txt.gz Normalized LM training text
-file: vocab.txt 200K word vocabulary for the LM
+file: librispeech-vocab.txt 200K word vocabulary for the LM
+file: librispeech-lexicon.txt Pronunciations, some of which G2P auto-generated, for all words in the vocabulary
 file: 3-gram.arpa.gz 3-gram ARPA LM, not pruned
 file: 3-gram.pruned.1e-7.arpa.gz 3-gram ARPA LM, pruned with theshold 1e-7
 file: 3-gram.pruned.3e-7.arpa.gz 3-gram ARPA LM, pruned with theshold 3e-7
