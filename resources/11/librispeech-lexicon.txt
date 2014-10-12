@@ -1,0 +1,1 @@
+/mnt/resources1/11/librispeech-lexicon-complete.txt
