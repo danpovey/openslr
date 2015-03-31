@@ -1,8 +1,6 @@
 name: RWCP Sound Scene Database
-summary: The content includes speech measurement data collected by microphone
-array and dry source of non-speech sound. The content also includes
-explanation of algorithms related to measurements, software using the
-algorithms and a study case using these measurement data.
+summary:  A database of sounds from real-world environments, collected using microphone arrays
 category: Speech + Software
+license: Research and development use only
 file: RWCP.tar.gz  
 alternate_url: http://research.nii.ac.jp/src/en/RWCP-SSD.html
