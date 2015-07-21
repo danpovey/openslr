@@ -1,5 +1,5 @@
 name: RWCP Sound Scene Database
-summary:  A database of sounds from real-world environments, collected using microphone arrays
+summary:  A database of recordings of real-world sounds and measured room impulse responses
 category: Speech + Software
 license: Research and development use only
 file: RWCP.tar.gz  

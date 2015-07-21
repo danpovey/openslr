@@ -1,0 +1,6 @@
+name: BEEP Dictionary 
+summary:  Phonemic transcriptions of over 250,000 English words. (British English pronunciations) 
+category: Text
+license: Research and development use only
+file: beep.tar.gz  
+alternate_url: http://svr-www.eng.cam.ac.uk/comp.speech/Section1/Lexical/beep.html

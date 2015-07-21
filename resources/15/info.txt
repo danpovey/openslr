@@ -1,0 +1,6 @@
+name: SRE Speaker List
+summary: A list linking speakers across NIST SRE corpra
+category: Misc
+license: Not copyrighted (derived from a work prepared by a US government employee in the course of their official duties)
+file: speaker_list.tgz
+

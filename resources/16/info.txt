@@ -1,0 +1,17 @@
+name: The AMI Corpus
+summary: Acoustic speech data and meta-data from The AMI corpus.
+category: speech
+license: THE CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE v2.0 LICENCE (modified, look for more details in the licence file and/or the AMI webpage)
+file: ami_manual_1.6.1.tar.gz AMI annotation files (ver. 1.6.1)
+file: headset.tar.gz    Close-talking acosutic data
+file: Array1-01.tar.gz  Array1 distant acoustic data
+file: Array1-02.tar.gz  Array1 distant acoustic data
+file: Array1-03.tar.gz  Array1 distant acoustic data
+file: Array1-04.tar.gz  Array1 distant acoustic data
+file: Array1-05.tar.gz  Array1 distant acoustic data
+file: Array1-06.tar.gz  Array1 distant acoustic data
+file: Array1-07.tar.gz  Array1 distant acoustic data
+file: Array1-08.tar.gz  Array1 distant acoustic data
+alternate_url: http://groups.inf.ed.ac.uk/ami/corpus The official AMI corpus webpage 
+
+
