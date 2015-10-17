@@ -4,9 +4,11 @@ category: software
 license: Public domain
 file: sctk-2.4.0-20091110-0958.tar.bz2 The original, bzipped version
 file: sctk-2.4.0-20091110-0958.tar.gz A gzipped version of the archive
-file: sctk-2.4.8-20130429-2145.tar.bz2 Version 2.8 of the software, as bz2
-file: sctk-2.4.9-20141015-1634Z.tar.bz2 Version 2.9 of the software, as bz2
+file: sctk-2.4.8-20130429-2145.tar.bz2 Version 2.4.8 of the software, as bz2
+file: sctk-2.4.9-20141015-1634Z.tar.bz2 Version 2.4.9 of the software, as bz2
+file: sctk-2.4.10-20151007-1312Z.tar.bz2 Version 2.4.10 of the software, as bz2
 alternate_url: ftp://jaguar.ncsl.nist.gov/pub/sctk-2.4.0-20091110-0958.tar.bz2 (for version 2.4.0)
 alternate_url: ftp://jaguar.ncsl.nist.gov/pub/sctk-2.4.8-20130429-2145.tar.bz2 (for version 2.4.8)
 alternate_url: ftp://jaguar.ncsl.nist.gov/pub/sctk-2.4.9-20141015-1634Z.tar.bz2 (for version 2.4.9)
+alternate_url: ftp://jaguar.ncsl.nist.gov/pub/sctk-2.4.10-20151007-1312Z.tar.bz2 (for version 2.4.10)
 
