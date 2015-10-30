@@ -1,0 +1,5 @@
+name: MUSAN
+summary: A corpus of music, speech, and noise
+category: audio
+license: Attribution 4.0 International (CC BY 4.0)
+file: musan.tar.gz  The corpus
