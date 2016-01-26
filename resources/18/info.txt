@@ -3,6 +3,8 @@ summary: A Free Chinese Speech Corpus Released by CSLT@Tsinghua University
 category: speech
 license: Apache License v.2.0
 file: data_thchs30.tgz  speech data and transcripts
+file: test-noise.tgz    standard 0db noisy test data
+file: resource.tgz      supplementary resources, incl. lexicon for training data, noise samples
 alternate_url: http://data.cslt.org/thchs30/README.html Original URL from CSLT
 alternate_url: http://pan.baidu.com/s/1hqKwE00          Baidu disk
 
