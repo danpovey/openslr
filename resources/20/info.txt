@@ -1,0 +1,7 @@
+name: Aachen Impulse Response Database
+summary: Aachen Impulse Response database (AIR): a database of room impulse responses (mirrored here)
+category: audio
+license: Not stated in the download.
+alternate_url: https://www2.iks.rwth-aachen.de/air/air_database_release_1_4.zip  Original download link
+alternate_url: http://www.iks.rwth-aachen.de/en/research/tools-downloads/aachen-impulse-response-database/  Project page
+file: air_database_release_1_4.zip  Version 1.4 of the database
