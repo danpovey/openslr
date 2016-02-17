@@ -1,0 +1,5 @@
+name: Spanish Word list
+summary: A list of words in Spanish with frequency derived from a large corpus (Spanish Gigaword).
+category: text
+license: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0 US)
+file: es_wordlist.json.tgz  JSON file containing words with frequency.
