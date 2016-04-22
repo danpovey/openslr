@@ -1,0 +1,12 @@
+name: THUYG-20
+summary: A free Uyghur speech database Released by CSLT@Tsinghua University & Xinjiang University
+category: speech
+license: Apache License v.2.0
+file: data_thuyg20.tar.gz  speech data and transcripts for speech recognition
+file: data_thuyg20_sre.tar.gz speech data for speaker recognition
+file: test_noise.tar.gz    standard 0db noisy test data for speech recognition
+file: test_noise_sre.tar.gz    standard 0db noisy test data for speaker recognition
+file: resource.tar.gz      supplementary resources, incl. lexicon for training data, noise samples
+alternate_url: http://data.cslt.org/thuyg20-openslr/README.html CSLT local storage
+alternate_url: http://pan.baidu.com/s/1hqKwE00          Baidu disk
+alternate_url: https://mega.nz/#F!idRSjL4A!cnCY0R2NjU77Jr0soe9OgQ          Mega disk

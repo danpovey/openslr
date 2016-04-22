@@ -1,0 +1,5 @@
+name: NIST LRE 2007 Key
+summary: A file containing metadata for the utterances in the LRE 2007 evaluation
+category: Misc
+license: Not copyrighted (derived from a work prepared by a US government employee in the course of their official duties)
+file: lre07_key.txt
