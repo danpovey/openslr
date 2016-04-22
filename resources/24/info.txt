@@ -1,6 +1,6 @@
 name: Iban
-summary: Iban language text and speech corpora used for Automatic Speech Recognition (ASR)
+summary: Iban language text and speech corpora for ASR
 category: speech 
-licence: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0 US)
+license: Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
 file: iban.tar.gz  Iban language corpora
  
