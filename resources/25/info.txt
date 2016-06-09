@@ -1,0 +1,10 @@
+name: ALFFA (African Languages in the Field: speech Fundamentals and Automation)
+summary: Amharic, Swahili and Wolof data, mirrored from the ALFFA git repository
+category: speech
+license: MIT
+file: data_readspeech_am.tar.bz2  Amharic speech and transcripts
+file: data_broadcastnews_sw.tar.bz2  Swahili speech and transcripts
+file: data_readspeech_wo.tar.bz2  Wolof speech and transcripts
+alternate_url: https://github.com/besacier/ALFFA_PUBLIC/tree/master/ASR/AMHARIC Amharic data 
+alternate_url: https://github.com/besacier/ALFFA_PUBLIC/tree/master/ASR/SWAHILI Swahili data
+alternate_url: https://github.com/besacier/ALFFA_PUBLIC/tree/master/ASR/WOLOF Wolof data
