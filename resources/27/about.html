@@ -1,0 +1,37 @@
+<h2>Cantab-TEDLIUM Release 1.1 (February 2015)</h2>
+<p>
+This is the README from the release <a href="http://cantabResearch.com/cantab-TEDLIUM.tar.bz2">http://cantabResearch.com/cantab-TEDLIUM.tar.bz2</a>.
+</p>
+
+<p>
+This release contains all the files required to reproduce the IWSLT baseline results
+quoted in Section 5.2 of "<i>Scaling Recurrent Neural Network Language Models</i>" (ICASSP 2015),
+which can be found at <a href="http://arxiv.org/abs/1502.00512">http://arxiv.org/abs/1502.00512</a>.
+</p>
+
+
+<h3>Contents</h3>
+<ul>
+<li> <tt>cantab-TEDLIUM.txt</tt> contains 155,290,779 tokens entropy filtered from
+  <a href="http://cantabResearch.com/cantab-1bn-norm.tar.bz2">http://cantabResearch.com/cantab-1bn-norm.tar.bz2</a>, which in turn was generated from
+  <a href="https://code.google.com/p/1-billion-word-language-modeling-benchmark/">https://code.google.com/p/1-billion-word-language-modeling-benchmark/</a>.
+</li>
+
+<li> <tt>cantab-TEDLIUM-unpruned.lm3</tt> is the 3-gram built from <tt>cantab-TEDLIUM.txt</tt>
+  with Witten-Bell smoothing.
+</li>
+
+<li>  <tt>cantab-TEDLIUM-pruned.lm3</tt> is the pruned version of <tt>cantab-TEDLIUM-unpruned.lm3</tt>,
+  suitable for use in a first pass decode with Kaldi.
+</li>
+
+<li> <tt>cantab-TEDLIUM-unpruned.lm4</tt> is an unpruned Kneser-Ney smoothed 4-gram provided for
+  rescoring lattices produced by the above decode step.
+</li>
+
+<li> <tt>cantab-TEDLIUM.dct</tt> is the 150 thousand word vocabulary for the above two LMs,
+  including phonetic pronunciations.
+</li>
+</ul>
+Contact: <a href="email:tonyr@cantabResearch.com">tonyr _at_ cantabresearch.com</a>
+

@@ -1,0 +1,6 @@
+name: Cantab-TEDLIUM Release 1.1 (February 2015)
+summary: Cantab Research Language models for the TEDLIUM database
+category: text
+license: unspecified
+file: cantab-TEDLIUM.tar.bz2  Original archive
+file: cantab-TEDLIUM-partial.tar.bz2  Partial archive for Kaldi TEDLIUM recipe
