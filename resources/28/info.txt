@@ -1,0 +1,5 @@
+name: Room Impulse Response and Noise Database
+summary: A database of simulated and real room impulse responses, isotropic and point-source noises
+category: Audio
+license: Apache 2.0
+file: rirs_noises.zip  The database 
