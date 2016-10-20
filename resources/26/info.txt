@@ -2,4 +2,5 @@ name: Simulated Room Impulse Response Database
 summary: A database of simulated room impulse responses
 category: Audio
 license: Apache 2.0
-file: sim_rir.zip  The database 
+file: sim_rir_8k.zip  The database in 8k sampling rate
+file: sim_rir_16k.zip  The database in 16k sampling rate
