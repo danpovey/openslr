@@ -1,0 +1,6 @@
+name: Sprakbanken_Swe
+summary: Swedish pronunciation dictionary
+category: text
+license: Creative Commons ZERO (CC-ZERO)
+file: lexicon-sv.tgz Lexicon
+
