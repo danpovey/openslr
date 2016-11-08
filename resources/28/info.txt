@@ -1,5 +1,5 @@
 name: Room Impulse Response and Noise Database
-summary: A database of simulated and real room impulse responses, isotropic and point-source noises
+summary: A database of simulated and real room impulse responses, isotropic and point-source noises. The audio files in this data are all in 16k sampling rate and 16-bit precision.
 category: Audio
 license: Apache 2.0
 file: rirs_noises.zip  The database 
