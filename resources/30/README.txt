@@ -1,0 +1,1 @@
+/mnt/resources1/30/README.txt
