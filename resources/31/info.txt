@@ -1,0 +1,7 @@
+name: Mini LibriSpeech ASR corpus
+summary: Subset of LibriSpeech corpus for purpose of regression testing
+category: speech
+license: CC BY 4.0
+file: dev-clean-2.tar.gz development set, "clean" speech
+file: train-clean-5.tar.gz test set, "clean" speech
+file: md5sum.txt md5 checksums of files
