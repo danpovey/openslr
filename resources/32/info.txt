@@ -1,0 +1,8 @@
+name: High quality TTS data for four South African languages (af, st, tn, xh)
+summary: Multi-speaker TTS data for four South African languages, Afrikaans, Sesotho, Setswana and isiXhosa.
+category: speech
+license: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+file: af_za.tar.gz Audio files and transcriptions for Afrikaans
+file: st_za.tar.gz Audio files and transcriptions for Sesotho
+file: tn_za.tar.gz Audio files and transcriptions for Setswana
+file: xh_za.tar.gz Audio files and transcriptions for isiXhosa
