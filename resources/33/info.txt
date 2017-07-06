@@ -1,0 +1,7 @@
+name: Aishell
+summary: Mandarin data, provided by Beijing Shell Shell Technology Co.,Ltd
+category: speech
+license: Apache License v.2.0
+file: data_aishell.tgz  speech data and transcripts
+file: resource_aishell.tgz   supplementary resources, incl. lexicon, speaker info
+alternate_url: http://www.aishelltech.com/kysjcp  Full description from the company website
