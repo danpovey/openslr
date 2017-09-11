@@ -1,0 +1,6 @@
+name: Santiago Spanish Lexicon
+summary: A pronouncing dictionary for the Spanish language.
+category: text
+license: apache 2.0
+file: santiago.tar.gz lexicon
+
