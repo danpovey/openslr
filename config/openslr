@@ -4,10 +4,10 @@
 	ServerAlias www.openslr.org
 
 	DocumentRoot /var/www/openslr
-	<Directory />
-		Options FollowSymLinks -Indexes
-		AllowOverride All
-	</Directory>
+#	<Directory />
+#		Options +FollowSymLinks -Indexes
+#		AllowOverride All
+#	</Directory>
 	<Directory /var/www/openslr>
 		Options Indexes FollowSymLinks MultiViews
 		AllowOverride All
