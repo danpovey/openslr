@@ -1,0 +1,24 @@
+name: Large Sundanese ASR training data set
+summary: Sundanese ASR training data set containing ~220K utterances.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: asr_sundanese.sha256 Checksum for the files
+file: LICENSE License information for the data set
+file: utt_spk_text.tsv All utterances in the data set
+file: asr_sundanese_0.zip Data set, file 0/15
+file: asr_sundanese_1.zip Data set, file 1/15
+file: asr_sundanese_2.zip Data set, file 2/15
+file: asr_sundanese_3.zip Data set, file 3/15
+file: asr_sundanese_4.zip Data set, file 4/15
+file: asr_sundanese_5.zip Data set, file 5/15
+file: asr_sundanese_6.zip Data set, file 6/15
+file: asr_sundanese_7.zip Data set, file 7/15
+file: asr_sundanese_8.zip Data set, file 8/15
+file: asr_sundanese_9.zip Data set, file 9/15
+file: asr_sundanese_a.zip Data set, file 10/15
+file: asr_sundanese_b.zip Data set, file 11/15
+file: asr_sundanese_c.zip Data set, file 12/15
+file: asr_sundanese_d.zip Data set, file 13/15
+file: asr_sundanese_e.zip Data set, file 14/15
+file: asr_sundanese_f.zip Data set, file 15/15
+

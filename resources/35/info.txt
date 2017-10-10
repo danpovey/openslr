@@ -1,0 +1,24 @@
+name: Large Javanese ASR training data set
+summary: Javanese ASR training data set containing ~185K utterances.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: asr_javanese.sha256 Checksum for the files
+file: LICENSE License information for the data set
+file: utt_spk_text.tsv All utterances in the data set
+file: asr_javanese_0.zip Data set, file 0/15
+file: asr_javanese_1.zip Data set, file 1/15
+file: asr_javanese_2.zip Data set, file 2/15
+file: asr_javanese_3.zip Data set, file 3/15
+file: asr_javanese_4.zip Data set, file 4/15
+file: asr_javanese_5.zip Data set, file 5/15
+file: asr_javanese_6.zip Data set, file 6/15
+file: asr_javanese_7.zip Data set, file 7/15
+file: asr_javanese_8.zip Data set, file 8/15
+file: asr_javanese_9.zip Data set, file 9/15
+file: asr_javanese_a.zip Data set, file 10/15
+file: asr_javanese_b.zip Data set, file 11/15
+file: asr_javanese_c.zip Data set, file 12/15
+file: asr_javanese_d.zip Data set, file 13/15
+file: asr_javanese_e.zip Data set, file 14/15
+file: asr_javanese_f.zip Data set, file 15/15
+
