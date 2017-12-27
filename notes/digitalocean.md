@@ -226,3 +226,21 @@ NOTE: It's probably a good idea to disable the renewal command in the old server
 crontab, in order to avoid conflict, even though I'd expect the request from the
 old server to fail due to DNS record for danielpovey.com being changed(not familiar
 with the ACME protocol though).
+
+
+### Some useful certificate maintenance commands (certbot v0.20)
+
+* List all certificates installed on a server
+
+    $ ./certbot-auto certificates
+
+
+* Revoke certificate
+
+    # the certbot will ask you if you want to also detele the certificate
+    $ ./certbot-auto revoke --cert-path /etc/letsencrypt/live/openslr.org/fullchain.pem
+
+
+* Update a certificate(e.g. www.openslr.org), by adding a new domain (e.g. openslr.org)
+
+    $ ./certbot-auto certonly --cert-name www.openslr.org -d www.openslr.org -d openslr.org
