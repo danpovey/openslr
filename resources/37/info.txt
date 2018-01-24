@@ -1,5 +1,5 @@
 name: High quality TTS data for Bengali languages
-summary: Multi-speaker TTS data for Bangladesh (bn-BD) and Indian Bengali (bn-IN).
+summary: Multi-speaker TTS data for Bangladesh Bengali (bn-BD) and Indian Bengali (bn-IN).
 category: speech
 license: Attribution-ShareAlike 4.0 Unported (CC BY-SA 4.0 US)
 file: bn_bd.zip Bangladesh Bengali data
