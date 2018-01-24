@@ -1,5 +1,5 @@
 This data set contains multi-speaker high quality transcribed audio data for
-Sinhalese. The data set consists of wave files, and a TSV file. There are two
+Bengali. The data set consists of wave files, and a TSV file. There are two
 zip files, one for each local which contain a file: line_index.tsv and the wave
 files. Line index has a fileID and the transcription.
 
