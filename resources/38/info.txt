@@ -1,0 +1,7 @@
+root@www:/var/www/openslr# cat /var/www/openslr/resources/6/info.txt
+name: Free ST Chinese Mandarin Corpus
+summary: A free Chinese Mandarin corpus by Surfingtech (www.surfing.ai), containing utterances from 855 speakers, 102600 utterances; 
+category: speech
+license: Creative Common BY-NC-ND 4.0 (Attribution-NonCommercial-NoDerivatives 4.0 International)
+file: ST-CMDS-20170001_1-OS.tar.gz  speech audios and transcripts
+alternate_url: https://www.surfing.ai 
