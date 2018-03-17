@@ -65,13 +65,22 @@
                     $size = $resource->get_file_size($file);
                     print "<p class=\"resource\"> <b>Download:</b> <a href=\"http://www.openslr.org/resources/$id/$file\"> $file </a> [$size] &nbsp; $comment </p>\n";
                  } elseif (count($resource->files) > 1) {
-                    print "<p class=\"resource\"> <b>Downloads:</b> <br>";
+                    print "<p class=\"resource\"> <b>Downloads (use a mirror closer to you):</b> <br>";
                     foreach ($resource->files as $f_array) {
                        $file = $f_array[0];
                        $size = $resource->get_file_size($file);
-                       $comment = (count($f_array) > 1 ? $f_array[1] : '');
-                       $file_url="http://www.openslr.org/resources/$id/$file";
-                       print "<a href=\"$file_url\"> $file </a> [$size] &nbsp; ($comment) <br> \n";
+		       $comment = (count($f_array) > 1 ? $f_array[1] : '');
+		       if ($hostname == "surfingtech") {
+                         $file_url="http://cn-mirror.openslr.org/resources/$id/$file";
+                         print "<a href=\"$file_url\"> $file </a> [$size] &nbsp; ($comment) &nbsp; Mirrors: \n";
+		         $file_url="http://www.openslr.org/resources/$id/$file";
+                         print "<a href=\"$file_url\"> [US] $hostname  </a> &nbsp; <br> \n";
+		       } else {
+                         $file_url="http://www.openslr.org/resources/$id/$file";
+                         print "<a href=\"$file_url\"> $file </a> [$size] &nbsp; ($comment) &nbsp; Mirrors: \n";
+		         $file_url="http://cn-mirror.openslr.org/resources/$id/$file";
+                         print "<a href=\"$file_url\"> [China] $hostname  </a> &nbsp; <br> \n";
+		       }
                     }
                     print '</p>';
                  }
@@ -81,7 +90,8 @@
                     print '<div id="about">';
                     print $about; // dump out the html from $resource_dir/about.html
                     print '</div>';
-                 }
+		 }
+
                  if (count($resource->alternate_urls) == 1) {
                     $u_array = $resource->alternate_urls[0]; // array of size 0 or 1.
                     $url = $u_array[0];
