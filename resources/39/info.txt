@@ -1,0 +1,6 @@
+name: Heroico
+summary: Spanish data, mirrored from the LDC
+category: speech
+license: apache 2.0
+file: LDC2006S37.tar.gz  Speech and transcripts
+alternate_url: https://catalog.ldc.upenn.edu/LDC2006S37
