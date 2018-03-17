@@ -63,23 +63,35 @@
                     $file = $f_array[0];
                     $comment = (count($f_array) > 1 ? $f_array[1] : '');
                     $size = $resource->get_file_size($file);
-                    print "<p class=\"resource\"> <b>Download:</b> <a href=\"http://www.openslr.org/resources/$id/$file\"> $file </a> [$size] &nbsp; $comment </p>\n";
+		    $hostname = gethostname();
+	            if ($hostname == "surfingtech") {
+		       print "<p class=\"resource\"> <b>Download:</b> ";
+		       print "<a href=\"http://cn-mirror.openslr.org/resources/$id/$file\"> $file </a> [$size] &nbsp; ($comment) &nbsp; Mirrors: </p>\n";
+		       $file_url="http://www.openslr.org/resources/$id/$file";
+                       print "<a href=\"$file_url\"> [US] </a> &nbsp; <br> \n";
+	            } else {
+		       print "<p class=\"resource\"> <b>Download:</b> ";
+		       print "<a href=\"http://www.openslr.org/resources/$id/$file\"> $file </a> [$size] &nbsp; ($comment) &nbsp; Mirrors: \n";
+		       $file_url="http://cn-mirror.openslr.org/resources/$id/$file";
+                       print "<a href=\"$file_url\"> [China] </a> &nbsp; <br> </p>\n";
+		    }
                  } elseif (count($resource->files) > 1) {
                     print "<p class=\"resource\"> <b>Downloads (use a mirror closer to you):</b> <br>";
                     foreach ($resource->files as $f_array) {
                        $file = $f_array[0];
                        $size = $resource->get_file_size($file);
 		       $comment = (count($f_array) > 1 ? $f_array[1] : '');
+		       $hostname = gethostname();
 		       if ($hostname == "surfingtech") {
                          $file_url="http://cn-mirror.openslr.org/resources/$id/$file";
                          print "<a href=\"$file_url\"> $file </a> [$size] &nbsp; ($comment) &nbsp; Mirrors: \n";
 		         $file_url="http://www.openslr.org/resources/$id/$file";
-                         print "<a href=\"$file_url\"> [US] $hostname  </a> &nbsp; <br> \n";
+                         print "<a href=\"$file_url\"> [US] </a> &nbsp; <br> \n";
 		       } else {
                          $file_url="http://www.openslr.org/resources/$id/$file";
                          print "<a href=\"$file_url\"> $file </a> [$size] &nbsp; ($comment) &nbsp; Mirrors: \n";
 		         $file_url="http://cn-mirror.openslr.org/resources/$id/$file";
-                         print "<a href=\"$file_url\"> [China] $hostname  </a> &nbsp; <br> \n";
+                         print "<a href=\"$file_url\"> [China] </a> &nbsp; <br> \n";
 		       }
                     }
                     print '</p>';
