@@ -1,0 +1,6 @@
+name: Zeroth-Korean
+summary: Korean Open-source Speech Corpus for Speech Recognition by Zeroth Project (https://github.com/goodatlas/zeroth)
+category: Speech Corpus for Automatic Speech Recognition
+license: Attribution 4.0 International (CC BY 4.0)
+file: zeroth_korean.tar.gz Korean Speech data, transcription, lexicon and language model
+alternate_url: https://storage.googleapis.com/zeroth_project/zeroth_korean.tar.gz Korean Speech data, transcription and language model
