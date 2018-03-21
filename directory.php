@@ -66,9 +66,9 @@
 		    $hostname = gethostname();
 	            if ($hostname == "surfingtech") {
 		       print "<p class=\"resource\"> <b>Download:</b> ";
-		       print "<a href=\"http://cn-mirror.openslr.org/resources/$id/$file\"> $file </a> [$size] &nbsp; ($comment) &nbsp; Mirrors: </p>\n";
+		       print "<a href=\"http://cn-mirror.openslr.org/resources/$id/$file\"> $file </a> [$size] &nbsp; ($comment) &nbsp; Mirrors: \n";
 		       $file_url="http://www.openslr.org/resources/$id/$file";
-                       print "<a href=\"$file_url\"> [US] </a> &nbsp; <br> \n";
+                       print "<a href=\"$file_url\"> [US] </a> &nbsp; <br> </p> \n";
 	            } else {
 		       print "<p class=\"resource\"> <b>Download:</b> ";
 		       print "<a href=\"http://www.openslr.org/resources/$id/$file\"> $file </a> [$size] &nbsp; ($comment) &nbsp; Mirrors: \n";
