@@ -50,7 +50,7 @@
                      $resource = new Resource($resource_dir);
                      if ($resource->ok()) {
                        print "<tr>";
-                       print "<td> <a href=\"http://www.openslr.org/$resource->id/\"> SLR$resource->id </a> </td> "; 
+                       print "<td> <a href=\"/$resource->id/\"> SLR$resource->id </a> </td> "; 
                        print "<td> $resource->name </td> <td> $resource->category </td> <td> $resource->summary </td>\n";
                        print "</tr>";
                      }
