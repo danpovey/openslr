@@ -1,0 +1,7 @@
+name: High quality TTS data for Javanese.
+summary: Multi-speaker TTS data for Javanese (jv-ID)
+category: speech
+license: Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
+file: jv_id_female.zip Javanese data from female speakers
+file: jv_id_male.zip Javanese data from female speakers
+file: LICENSE License information

@@ -1,0 +1,6 @@
+name: High quality TTS data for Khmer.
+summary: Multi-speaker TTS data for Khmer (km-KH)
+category: speech
+license: Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
+file: km_kh.male.zip Khmer data from male speakers
+file: LICENSE License information
