@@ -1,0 +1,5 @@
+name: Tunisian_MSA
+summary: Tunisian Modern Standard Arabic
+category: speech
+license: Apache 2.0
+file: Tunisian_MSA.tar.gz Data
