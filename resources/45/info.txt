@@ -1,0 +1,6 @@
+name: Free ST American English Corpus
+summary: A free American English corpus by Surfingtech (www.surfing.ai), containing utterances from 10 speakers, Each speaker has about 350 utterances; 
+category: speech
+license: Creative Common BY-NC-ND 4.0 (Attribution-NonCommercial-NoDerivatives 4.0 International)
+file: ST-AEDS-20180100_1-OS.tgz  speech audios and transcripts
+alternate_url: https://www.surfing.ai
