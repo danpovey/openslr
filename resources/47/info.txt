@@ -1,0 +1,5 @@
+name: Primewords Chinese Corpus Set 1
+summary: Chinese Mandarin corpus released by Shanghai Primewords Co. Ltd. (www.primewords.cn), containing 100 hours of speech data.
+category: speech
+license: Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) 
+file: primewords_md_2018_set1.tar.gz speech data and transcripts
