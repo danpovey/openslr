@@ -58,5 +58,5 @@
 	# alert, emerg.
 	LogLevel warn
 
-	CustomLog ${APACHE_LOG_DIR}/access.log combined
+	CustomLog ${APACHE_LOG_DIR}/access.openslr.log combined
 </VirtualHost>
