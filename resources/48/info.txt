@@ -1,0 +1,8 @@
+name: MADCAT Arabic data splits
+summary: Unofficial data splits (dev/train/test) for the MADCAT Arabic LDC corpus
+category: other
+license: Apache 2.0
+file: madcat.dev.raw.lineid  dev set
+file: madcat.test.raw.lineid test set
+file: madcat.train.raw.lineid train set 
+
