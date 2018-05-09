@@ -1,0 +1,5 @@
+name: VoxCeleb1 Trials
+summary: A file containing a list of trial pairs for the VoxCeleb1 speaker verification task
+category: Misc
+license: Not copyrighted
+file: voxceleb1_test.txt
