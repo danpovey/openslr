@@ -1,0 +1,5 @@
+name: VoxCeleb1 and SITW Overlap
+summary: A list of 60 speakers in VoxCeleb1 that overlap with the Speakers in the Wild (SITW) dataset
+category: Misc
+license: Not copyrighted
+file: voxceleb1_sitw_overlap.txt
