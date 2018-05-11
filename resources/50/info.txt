@@ -1,5 +1,8 @@
-name: VoxCeleb1 and SITW Overlap
-summary: A list of 60 speakers in VoxCeleb1 that overlap with the Speakers in the Wild (SITW) dataset
-category: Misc
-license: Not copyrighted
-file: voxceleb1_sitw_overlap.txt
+name: MADCAT Chinese data splits
+summary: Unofficial data splits (dev/train/test) for the MADCAT Chinese LDC corpus
+category: other
+license: Apache 2.0
+file: madcat.dev.raw.lineid  dev set
+file: madcat.test.raw.lineid test set
+file: madcat.train.raw.lineid train set 
+

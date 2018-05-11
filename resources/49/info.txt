@@ -1,5 +1,7 @@
-name: VoxCeleb1 Trials
-summary: A file containing a list of trial pairs for the VoxCeleb1 speaker verification task
+name: VoxCeleb Data
+summary: Various files for the VoxCeleb datasets
 category: Misc
 license: Not copyrighted
-file: voxceleb1_test.txt
+file: voxceleb1_test.txt A file containing a list of trial pairs for the VoxCeleb1 speaker verification task
+file: voxceleb1_sitw_overlap.txt A list of 60 speakers in VoxCeleb1 that overlap with the Speakers in the Wild (SITW) dataset
+alternate_url: http://www.robots.ox.ac.uk/~vgg/data/voxceleb
