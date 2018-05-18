@@ -1,0 +1,6 @@
+name: TED-LIUM Release 3
+summary: TED-LIUM corpus release 3
+category: speech
+license: Creative Commons BY-NC-ND 3.0
+file: TEDLIUM_release-3.tgz (data)
+alternate_url: https://lium.univ-lemans.fr/download/ted-lium_release3
