@@ -1,0 +1,23 @@
+name: Large Sinhala ASR training data set
+summary: Sinhala ASR training data set containing ~185K utterances.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: utt_spk_text.tsv All utterances in the data set
+file: asr_sinhala_0.zip Data set
+file: asr_sinhala_1.zip Data set
+file: asr_sinhala_2.zip Data set
+file: asr_sinhala_3.zip Data set
+file: asr_sinhala_4.zip Data set
+file: asr_sinhala_5.zip Data set
+file: asr_sinhala_6.zip Data set
+file: asr_sinhala_7.zip Data set
+file: asr_sinhala_8.zip Data set
+file: asr_sinhala_9.zip Data set
+file: asr_sinhala_a.zip Data set
+file: asr_sinhala_b.zip Data set
+file: asr_sinhala_c.zip Data set
+file: asr_sinhala_d.zip Data set
+file: asr_sinhala_e.zip Data set
+file: asr_sinhala_f.zip Data set

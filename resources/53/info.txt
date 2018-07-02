@@ -1,0 +1,23 @@
+name: Large Bengali ASR training data set
+summary: Bengali ASR training data set containing ~196K utterances.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: utt_spk_text.tsv All utterances in the data set
+file: asr_bengali_0.zip Data set
+file: asr_bengali_1.zip Data set
+file: asr_bengali_2.zip Data set
+file: asr_bengali_3.zip Data set
+file: asr_bengali_4.zip Data set
+file: asr_bengali_5.zip Data set
+file: asr_bengali_6.zip Data set
+file: asr_bengali_7.zip Data set
+file: asr_bengali_8.zip Data set
+file: asr_bengali_9.zip Data set
+file: asr_bengali_a.zip Data set
+file: asr_bengali_b.zip Data set
+file: asr_bengali_c.zip Data set
+file: asr_bengali_d.zip Data set
+file: asr_bengali_e.zip Data set
+file: asr_bengali_f.zip Data set

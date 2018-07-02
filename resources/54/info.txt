@@ -1,0 +1,23 @@
+name: Large Nepali ASR training data set
+summary: Nepali ASR training data set containing ~157K utterances.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: utt_spk_text.tsv All utterances in the data set
+file: asr_nepali_0.zip Data set
+file: asr_nepali_1.zip Data set
+file: asr_nepali_2.zip Data set
+file: asr_nepali_3.zip Data set
+file: asr_nepali_4.zip Data set
+file: asr_nepali_5.zip Data set
+file: asr_nepali_6.zip Data set
+file: asr_nepali_7.zip Data set
+file: asr_nepali_8.zip Data set
+file: asr_nepali_9.zip Data set
+file: asr_nepali_a.zip Data set
+file: asr_nepali_b.zip Data set
+file: asr_nepali_c.zip Data set
+file: asr_nepali_d.zip Data set
+file: asr_nepali_e.zip Data set
+file: asr_nepali_f.zip Data set
