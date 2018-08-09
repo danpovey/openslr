@@ -1,0 +1,7 @@
+name: CLMAD
+summary: A Chinese Language Model Adaptation Dataset (CLMAD).
+category: text
+license: Creative Commons BY-NC-ND 3.0 (attribution/non-commercial/no-derivatives).
+file: train.tgz Training set
+file: test.tgz Testing set
+
