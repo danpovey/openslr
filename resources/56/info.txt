@@ -1,0 +1,6 @@
+name: IAM Aachen splits
+summary: Aachen data splits (train/test/val) for the IAM dataset.
+category: Other
+license: n/a
+file: splits.zip train/test/val splits
+
