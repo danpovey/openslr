@@ -4,5 +4,6 @@ category: Misc
 license: Not copyrighted
 file: voxceleb1_test.txt A file containing a list of trial pairs for the VoxCeleb1 speaker verification task
 file: voxceleb1_sitw_overlap.txt A list of 60 speakers in VoxCeleb1 that overlap with the Speakers in the Wild (SITW) dataset
-file: vox1_meta.csv A list which provides a gender and nationality labels
+file: vox1_meta.csv A list which provides identity, gender and nationality labels for VoxCeleb1
+file: vox2_meta.csv A list which provides identity, gender and nationality labels for VoxCeleb2
 alternate_url: http://www.robots.ox.ac.uk/~vgg/data/voxceleb
