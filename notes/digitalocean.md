@@ -244,3 +244,22 @@ with the ACME protocol though).
 * Update a certificate(e.g. www.openslr.org), by adding a new domain (e.g. openslr.org)
 
     $ ./certbot-auto certonly --cert-name www.openslr.org -d www.openslr.org -d openslr.org
+
+### Example of enabling Let's Encrypt for a site
+
+Assuming that we have a site alredy configured to serve non-encrypted trafic on port 80,
+the following commands can be used to configure SSL:
+
+* Create new certificate(s)- with Let's Encrypt we need both example.org and www.example.org (no support for wildcard certificates):
+
+  ./letsencrypt-auto certonly --apache -d kaldi-asr.org -d www.kaldi-asr.org
+
+    The "--apache" instructs the bot to use the already running Apache server for its requests. Otherwise, if for example the "--standalone" option is used it complains about not being able to bind to port 80.
+
+
+* Edit the config file for the site. Just copy and paste(make another copy) the entire "<VirtualHost *:80>" section, change the ":80" part to ":443" and add options to enable SSL:
+
+       SSLEngine On
+       SSLCertificateFile /etc/letsencrypt/live/kaldi-asr.org/cert.pem
+       SSLCertificateKeyFile /etc/letsencrypt/live/kaldi-asr.org/privkey.pem
+       SSLCertificateChainFile /etc/letsencrypt/live/kaldi-asr.org/chain.pem
