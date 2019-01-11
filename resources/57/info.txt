@@ -1,0 +1,5 @@
+name: African Accented French
+summary: Recordings of African Accented French speech.
+category: speech
+license: Apache 2.0
+file: African_Accented_French.tar.gz The whole corpus
