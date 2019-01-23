@@ -1,0 +1,6 @@
+name: Pansori-TEDxKR
+summary: Korean speech corpus generated from Korean language TEDx talks
+category: speech
+license: Creative Commons BY-NC-ND 4.0 (attribution/non-commercial/no-derivatives)
+file: pansori-tedxkr-corpus-1.0.tar.gz  Korean speech and trascripts
+alternate_url: https://storage.googleapis.com/pansori/corpus/pansori-tedxkr-corpus-1.0.tar.gz
