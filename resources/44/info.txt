@@ -3,5 +3,5 @@ summary: Multi-speaker TTS data for Sundanese (su-ID)
 category: speech
 license: Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
 file: su_id_female.zip Sundanese data from female speakers
-file: su_id_male.zip Sundanese data from female speakers
+file: su_id_male.zip Sundanese data from male speakers
 file: LICENSE License information
