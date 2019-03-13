@@ -1,0 +1,9 @@
+name: ParlamentParla
+summary: Catalan speech corpus generated from Catalan Parliamentary sessions
+category: speech
+license: CC Attribution 4.0 (CC BY 4.0)
+file: parlament_v1.0_clean.tar.gz  90 hours of "clean" speech and transcripts
+file: parlament_v1.0_other.tar.gz  230 hours of "other" speech and transcripts
+alternate_url: http://laklak.eu/share/parlament_v1.0_clean.tar.gz clean data 
+alternate_url: http://laklak.eu/share/parlament_v1.0_other.tar.gz other data
+
