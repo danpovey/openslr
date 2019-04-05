@@ -1,0 +1,11 @@
+name: LibriTTS corpus
+summary: Large-scale corpus of English speech derived from the original materials of the LibriSpeech corpus
+category: Speech
+license: CC BY 4.0
+file: dev-clean.tar.gz  Development set, clean speech
+file: dev-other.tar.gz  Development set, more challenging speech
+file: test-clean.tar.gz  Test set, "clean" speech
+file: test-other.tar.gz  Test set, "other" speech
+file: train-clean-100.tar.gz  Training set derived from the original materials of the train-clean-100 subset of LibriSpeech
+file: train-clean-360.tar.gz  Training set derived from the original materials of the train-clean-360 subset of LibriSpeech
+file: train-other-500.tar.gz  Training set derived from the original materials of the train-other-500 subset of LibriSpeech
