@@ -1,0 +1,17 @@
+name: Crowdsourced high-quality Argentinian Spanish speech data set.
+summary: Data set which contains 5739 recordings of native speakers of Spanish
+recorded in Buenos Aires, Argentina. The data set has both male and female
+recordings. Part of the data set is a small section of weather messages,
+recorded both in Peninsular Spanish (90 messages) as well as Argentinian Spanish
+(90 messages).
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: line_index_female.tsv All utterances for the female speakers.
+file: line_index_male.tsv All utterances for the male speakers.
+file: es_es_line_index_weather.tsv Weather messages in Peninsular Spanish.
+file: es_ar_line_index_weather.tsv Weather messages in Argentinian Spanish.
+file: es_ar_female.zip Archive file with all audio for the female speakers.
+file: es_ar_male.zip Archive file with all audio for the  male speakers.
+file: es_weather_messages.zip Archive file with the weather messages.
