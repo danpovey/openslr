@@ -1,0 +1,12 @@
+name: Crowdsourced high-quality Telugu multi-speaker speech data set.
+summary: Data set which contains recordings of native speakers of Telugu.
+There are 2294 recordings from female speakers, and 2154 recordings from male
+speakers.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: line_index_female.tsv Lines recorded by the female speakers
+file: line_index_male.tsv Lines recorded by the male speakers
+file: te_in_female.zip Archive containing recordings from female speakers
+file: te_in_male.zip Archive file recordings from male speakers
