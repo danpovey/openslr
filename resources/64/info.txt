@@ -1,0 +1,10 @@
+name: Crowdsourced high-quality Marathi multi-speaker speech data set.
+summary: Data set which contains recordings of native speakers of Marathi
+There are 1596 recordings from female speakers.
+The data set has recordings from multiple female speakers.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: line_index.tsv All utterances in the data set
+file: mr_in_female.zip Archive file containing all the data.
