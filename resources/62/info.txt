@@ -1,0 +1,7 @@
+name: aidatatang_200zh
+summary: A Chinese Mandarin telephone speech corpus published by Beijing DataTang Technology Co., Ltd.
+category: speech
+file: 200.zip Speech corpus
+license: Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+alternate_url: https://www.datatang.com/webfront/datatang_laboratory_03.html DataTangAIlab
+
