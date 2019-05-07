@@ -1,0 +1,5 @@
+name: TEDx Spanish Corpus
+summary: Spanish data taken from the TEDx Talks
+category: speech
+license: Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+file: tedx_spanish_corpus.tgz Spanish speech and transcripts
