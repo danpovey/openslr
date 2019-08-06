@@ -1,0 +1,9 @@
+name: Crowdsourced high-quality Burmese speech data set.
+summary: Data set which contains recordings of Burmese.
+There are 2530 recordings from female speakers.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: line_index_female.tsv All utterances for the female speakers.
+file: my_mm_female.zip Archive file with all audio for the female speakers.

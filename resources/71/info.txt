@@ -1,0 +1,12 @@
+name: Crowdsourced high-quality Chilean Spanish speech data set.
+summary: Data set which contains recordings of Chilean Spanish.
+There are 1738 recordings from female speakers, and 2636 recordings from male
+speakers.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: line_index_female.tsv All utterances for the female speakers.
+file: line_index_male.tsv All utterances for the male speakers.
+file: es_cl_female.zip Archive file with all audio for the female speakers.
+file: es_cl_male.zip Archive file with all audio for the  male speakers.

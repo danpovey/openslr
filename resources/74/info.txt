@@ -1,0 +1,9 @@
+name: Crowdsourced high-quality Puerto Rico Spanish speech data set.
+summary: Data set which contains recordings of Puerto Rico Spanish.
+There are 617 recordings from male speakers.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: line_index_male.tsv All utterances for the male speakers.
+file: es_pr_male.zip Archive file with all audio for the  male speakers.
