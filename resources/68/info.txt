@@ -1,0 +1,9 @@
+name: MAGICDATA Mandarin Chinese Read Speech Corpus
+summary: The corpus by Magic Data Technology Co., Ltd. , containing 755 hours of scripted read speech data from 1080 native speakers of the Mandarin Chinese spoken in mainland China. The sentence transcription accuracy is higher than 98%.
+category: Speech
+license: Attribution-NonCommercial-NoDerivatives 4.0 International Public License (CC BY-NC-ND 4.0)
+file: train_set.tar.gz  Training set speech and transcripts
+file: dev_set.tar.gz Development set speech and transcripts
+file: test_set.tar.gz Test set speech and transcripts
+file: metadata.tar.gz supplementary resources, incl. data introduction (in English and Chinese) and speaker information
+alternate_url: http://www.imagicdatatech.com/index.php/home/dataopensource/data_info/id/101  Full description from the company website
