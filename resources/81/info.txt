@@ -1,0 +1,5 @@
+name: Small Audio Clips
+summary: Contains 20 one-second audio clips from various sources, for testing compression algorithms
+category: speech
+license: CC BY 4.0
+file: samples.tar.gz   Archive containing audio samples
