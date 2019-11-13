@@ -1,0 +1,5 @@
+name: CN-Celeb
+summary: A Free Chinese Speaker Recognition Corpus Released by CSLT@Tsinghua University
+category: Speech
+license: Attribution-ShareAlike 4.0 International
+file: cn-celeb.tgz  Audios with speaker ids for training and evaluation
