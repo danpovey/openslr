@@ -1,0 +1,31 @@
+name: Crowdsourced high-quality UK and Ireland English Dialect speech data set.
+summary: Data set which contains male and female recordings of English from various dialects of the UK and Ireland.
+category: speech
+license: Attribution-ShareAlike 4.0 International
+file: about.html Information about the data set
+file: LICENSE License information for the data set
+file: line_index_all.csv All utterances in the data set.
+file: dialect_info.txt Information about the dialects represented in the data
+set.
+file: irish_english_male.zip Archive file with recordings from the speakers of
+Irish English.
+file: midlands_english_female.zip Archive file with recordings from the female
+midlands English speakers.
+file: midlands_english_male.zip Archive file with recordings from the male
+midlands English speakers.
+file: northern_english_female.zip Archive file with recordings from the female
+northern English speakers.
+file: northern_english_male.zip Archive file with recordings from the male
+northern English speakers.
+file: scottish_english_female.zip Archive file with recordings from the female
+Scottish English speakers.
+file: scottish_english_male.zip Archive file with recordings from the male
+Scottish English speakers.
+file: southern_english_female.zip Archive file with recordings from the female
+southern English speakers.
+file: southern_english_male.zip Archive file with recordings from the male
+southern English speakers.
+file: welsh_english_female.zip Archive file with recordings from the female
+Welsh english speakers.
+file: welsh_english_male.zip Archive file with recordings from the male Welsh
+English speakers.
