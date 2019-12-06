@@ -1,0 +1,8 @@
+name: HI-MIA
+summary: A far-field text-dependent speaker verification database for AISHELL Speaker Verification Challenge 2019
+category: Speech
+license: Apache License v.2.0
+file: train.tar.gz Training set with speaker dependent sub folders
+file: dev.tar.gz Dev set with speaker dependent sub folders
+file: test.tar.gz Test set with target/non-target answer
+alternate_url: http://aishelltech.com/wakeup_data 
