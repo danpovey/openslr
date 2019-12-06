@@ -1,0 +1,6 @@
+name: ScribbleLens
+summary: Dutch cursive, 16-18th century handwritings, pages and lines, for (un)supervised AI and other research.
+category: Handwriting
+license: CC-BY-NC-ND (details in LICENSE.txt)
+file: scribblelens.corpus.v1.2.zip  Dutch historical handwritings
+
