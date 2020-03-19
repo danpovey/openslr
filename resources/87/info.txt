@@ -1,0 +1,6 @@
+name: MobvoiHotwords
+summary: Chinese hotwords detection dataset, provided by Mobvoi CO.,LTD
+category: Speech
+license: Apache License v.2.0
+file: mobvoi_hotword_dataset.tgz Wave files of keyword and non-keyword data
+file: mobvoi_hotword_dataset_resources.tgz Label, speaker and channel information of above wave files
