@@ -1,0 +1,5 @@
+name: Speechocean 10 Hours Chinese Mandarin Speech Recognition Corpus
+summary: Free 10.33 Hours Chinese Mandarin Speech Recognition Corpus Provided by Speechocean
+category: Speech
+license: Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+file: speechocean.zip Corpus
