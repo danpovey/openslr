@@ -1,0 +1,5 @@
+name: Free English Corpus and Language Challenge -- Speechocean
+summary: A free 8.2 hours English speech recognition corpus provided by speechocean and an oriental language recognition challenge co-organized by speechocean and Tsinghua University.
+category: Speech
+license: Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+file: speechoceanfreedata2.zip Corpus
